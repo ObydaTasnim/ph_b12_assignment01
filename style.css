@@ -57,3 +57,120 @@ header{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+
+}
+
+
+
+
+.hero-txt{
+    font-size: 65px;
+    font-weight: bold;
+
+}
+
+.btn-2{
+    background-color: rgb(78,71,255);
+    color: white;
+    height: 48px;
+    width: 174px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 40px;
+    font-weight: bold;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+
+
+.btn-2:hover{
+    transform: scale(1.3);
+    background-color: rgb(247, 0, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+    
+}
+
+
+
+
+    .sections {
+      padding: 60px 120px ;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .action-items {
+      max-width: 400px;
+    }
+    .sections img {
+      max-width: 100%;
+      border-radius: 48px;
+    }
+
+
+    .action-items p {
+        color: rgb(161, 158, 171);
+        font-size: 20px;
+        margin-bottom: 40px;
+        
+    }
+
+    .action-items h2{
+        font-size: 42px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        
+    }
+
+
+    .action-items button{
+    background-color: rgb(78,71,255);
+    color: white;
+    height: 48px;
+    width: 229px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    margin-bottom: 50px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.action-items button:hover{
+    transform: scale(1.3);
+    background-color: rgb(247, 0, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
